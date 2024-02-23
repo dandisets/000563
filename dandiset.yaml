@@ -24,9 +24,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 158643583873
-  numberOfFiles: 77
-  numberOfSubjects: 13
+  numberOfBytes: 166795795435
+  numberOfFiles: 81
+  numberOfSubjects: 14
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -38,7 +38,7 @@ assetsSummary:
   - ProcessingModule
   - LFP
   - ElectricalSeries
-citation: Allen Institute Openscope - Barcoding (2023). (Version draft) [Data set].
+citation: Allen Institute Openscope - Barcoding (2024). (Version draft) [Data set].
   DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - awardNumber: 1 U24 NS 113646-03
