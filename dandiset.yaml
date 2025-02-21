@@ -17,13 +17,13 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: signal filtering technique
-    schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
+  - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
   numberOfBytes: 203123591694
   numberOfFiles: 95
@@ -36,9 +36,9 @@ assetsSummary:
   variableMeasured:
   - LFP
   - ElectricalSeries
-  - Units
-  - OptogeneticSeries
   - ProcessingModule
+  - OptogeneticSeries
+  - Units
 citation: Allen Institute Openscope - Barcoding (2024). (Version draft) [Data set].
   DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
