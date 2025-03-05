@@ -3,9 +3,12 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
+acknowledgement: We thank the Allen Institute founder, Paul G. Allen, for his vision,
+  encouragement, and support.
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -39,8 +42,8 @@ assetsSummary:
   - ProcessingModule
   - OptogeneticSeries
   - Units
-citation: Allen Institute Openscope - Barcoding (2024). (Version draft) [Data set].
-  DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Allen Institute Openscope - Barcoding (2025). (Version draft) [Data set].
+  DANDI Archive. https://dandiarchive.org/dandiset/000563/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-03
   name: National Institutes of Health (NIH)
@@ -48,28 +51,60 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-06-15T18:31:33.746898+00:00'
-datePublished: '2023-12-15T16:14:16.467762+00:00'
-description: TBD
-doi: 10.80507/dandi.123456/0.123456.1234
+description: "When cortical neurons are injected with white noise current in a slice,
+  the elicited spike times are highly reproducible (Mainen and Sejnowski, 1995). Visual
+  neurons also respond to white noise flicker visual stimuli with high temporal precision,
+  for example in retinal ganglion cells, LGN, or cortical area MT, to name just a
+  few. Similar results are reported in other sensory modalities (e.g. Kayser et al,
+  2010; Jarocka et al, 2021). When such stimuli are presented repeatedly and the neural
+  responses displayed as spike rasters, the rasters look remarkably like UPC codes
+  or bar codes. The Temporal Barcode Dataset provides these barcodes for visually
+  responsive neurons throughout the brain of an awake mouse.\n\nAstonishingly, the
+  same bar-code-like patterns have been found in neurons recorded in different individual
+  animals, and even neurons in different species. The temporal pattern of one neuron’s
+  response to the same visual stimulus sequence at different contrasts are systematically
+  related, as are responses of the same neuron to the same visual stimulus sequence
+  at different luminance (Lewen et al., 2001). These findings have implications for
+  dynamical models of neural spike coding (Fellous et al, 2004, Wang et al 2019).
+  We speculated that these barcodes could be used as identifiers of discrete cell
+  types.\n\nThis experiment used the OpenScope Neuropixels passive viewing protocol,
+  and displayed visual stimuli modulated in time by a short, repeated white noise
+  sequence. The visual stimulus was either a spatially uniform field whose luminance
+  was modulated in time (Full Field Flicker), or a standing sinusoidal grating whose
+  contrast was modulated in time (Static Gratings). The best evidence for temporal
+  barcodes has come from early visual areas (retina and LGN). Therefore, to obtain
+  large populations of neurons in subcortical areas, roughly half of the mice were
+  recorded in a novel electrode configuation. To our surprise, a majority of neurons
+  in visual cortical areas responded to full field flicker with clear temporal barcodes."
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: ​Allen Institute Institutional Animal Care and Use Committee (IACUC),
+    protocol 2117
+  schemaKey: EthicsApproval
 id: DANDI:000563/draft
 identifier: DANDI:000563
+keywords:
+- mouse
+- neuropixel
+- extracellular electrophysiology
+- neocortex
+- excitatory
+- inhibitory
+- barcoding
+- temporal
+- precision
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000563/versions/draft/assets/
 name: Allen Institute Openscope - Barcoding
-publishedBy:
-  endDate: '2023-12-15T16:14:16.467762+00:00'
-  id: urn:uuid:fbffe13b-0ff1-4475-9953-2dad9b6f09d8
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-12-15T16:14:16.467762+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:cd517e82-36c0-4c96-975f-7ab0d517b17c
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000563/draft
 version: draft
+wasGeneratedBy: []
