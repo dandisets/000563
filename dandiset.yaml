@@ -51,31 +51,26 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-06-15T18:31:33.746898+00:00'
-description: "When cortical neurons are injected with white noise current in a slice,
-  the elicited spike times are highly reproducible (Mainen and Sejnowski, 1995). Visual
-  neurons also respond to white noise flicker visual stimuli with high temporal precision,
-  for example in retinal ganglion cells, LGN, or cortical area MT, to name just a
-  few. Similar results are reported in other sensory modalities (e.g. Kayser et al,
-  2010; Jarocka et al, 2021). When such stimuli are presented repeatedly and the neural
-  responses displayed as spike rasters, the rasters look remarkably like UPC codes
-  or bar codes. The Temporal Barcode Dataset provides these barcodes for visually
-  responsive neurons throughout the brain of an awake mouse.\n\nAstonishingly, the
-  same bar-code-like patterns have been found in neurons recorded in different individual
-  animals, and even neurons in different species. The temporal pattern of one neuron’s
-  response to the same visual stimulus sequence at different contrasts are systematically
-  related, as are responses of the same neuron to the same visual stimulus sequence
-  at different luminance (Lewen et al., 2001). These findings have implications for
-  dynamical models of neural spike coding (Fellous et al, 2004, Wang et al 2019).
-  We speculated that these barcodes could be used as identifiers of discrete cell
-  types.\n\nThis experiment used the OpenScope Neuropixels passive viewing protocol,
-  and displayed visual stimuli modulated in time by a short, repeated white noise
-  sequence. The visual stimulus was either a spatially uniform field whose luminance
-  was modulated in time (Full Field Flicker), or a standing sinusoidal grating whose
-  contrast was modulated in time (Static Gratings). The best evidence for temporal
-  barcodes has come from early visual areas (retina and LGN). Therefore, to obtain
-  large populations of neurons in subcortical areas, roughly half of the mice were
-  recorded in a novel electrode configuation. To our surprise, a majority of neurons
-  in visual cortical areas responded to full field flicker with clear temporal barcodes."
+description: "Some visual neurons have been shown to respond to white noise flicker
+  visual stimuli with high temporal precision, particularly retinal ganglion cells
+  and LGN relay cells. Responses to white noise stimulation are useful for a variety
+  of analyses, including information theoretic measures and generative models of precise
+  spike timing. However the literature was lacking data on responses to white noise
+  in cortical visual areas, or in the visual stream flowing through the superior colliculus.\n
+  \nThis experiment used the OpenScope Neuropixels passive viewing protocol, and displayed
+  visual stimuli modulated in time by a short, repeated white noise sequence. The
+  visual stimulus was either a spatially uniform field whose luminance was modulated
+  in time (Full Field Flicker), or a standing sinusoidal grating whose contrast was
+  modulated in time (Static Gratings). Perhaps surprisingly, most cortical visual
+  neurons responded well to full-field flicker white noise.  To obtain large populations
+  of neurons in subcortical areas, roughly half of the mice were recorded in a novel
+  electrode configuration. \n\nWhen white noise visual stimuli are presented repeatedly
+  and the neural responses displayed as spike rasters, the rasters look remarkably
+  like UPC codes or bar codes. The same bar-code-like patterns have been found in
+  neurons recorded in different individual animals, and even neurons in different
+  species. We speculated that these barcodes could be used as identifiers of discrete
+  cell types. The Temporal Barcode Dataset provides \"barcodes\" for visually responsive
+  neurons throughout the mouse brain, enabling a test of this hypothesis."
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
