@@ -28,9 +28,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 416641319094
-  numberOfFiles: 210
-  numberOfSubjects: 36
+  numberOfBytes: 200169653509
+  numberOfFiles: 94
+  numberOfSubjects: 14
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -196,7 +196,7 @@ contributor:
   - dcite:DataCollector
   schemaKey: Person
 dateCreated: '2023-06-15T18:31:33.746898+00:00'
-datePublished: '2025-03-11T00:22:38.329075+00:00'
+datePublished: '2025-03-11T21:45:53.716747+00:00'
 description: "Some visual neurons have been shown to respond to white noise flicker
   visual stimuli with high temporal precision, particularly retinal ganglion cells
   and LGN relay cells. Responses to white noise stimulation are useful for a variety
@@ -242,13 +242,13 @@ manifestLocation:
 name: Allen Institute Openscope - Barcoding
 protocol: []
 publishedBy:
-  endDate: '2025-03-11T00:22:38.329075+00:00'
-  id: urn:uuid:ba4b5b43-5e14-457a-8eef-92250f51a53d
+  endDate: '2025-03-11T21:45:53.716747+00:00'
+  id: urn:uuid:1253fe88-8e00-481c-a76c-55db684dff45
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2025-03-11T00:22:38.329075+00:00'
+  startDate: '2025-03-11T21:45:53.716747+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:36b79a90-cb3e-49ac-b327-5e95243ac2fa
+  - id: urn:uuid:a3ac88b6-1365-43fc-90fe-e7c76d77f0a9
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
