@@ -46,8 +46,8 @@ citation: Reinagel, Pamela; Lecoq, Jérôme; Durand, Séverine; Gillis, Ryan; Ca
   Mikayla; Peene, Carter; Bawany, Ahad; Johnson, Tye; Amaya, Avalon; Han, Warren;
   Wilkes, Josh; Nguyen, Katrina; Suarez, Lucas; Naidoo, Robyn; Ouellette, Ben; Grasso,
   Conor ; Loeffler, Henry; Belski, Hannah; Williford, Ali; Swapp, Jackie; Howard,
-  Robert (2025) Allen Institute Openscope - Barcoding (Version draft) [Data set].
-  DANDI Archive. https://dandiarchive.org/dandiset/000563/draft
+  Robert (2025) Allen Institute Openscope - Barcoding (Version 0.250311.0022) [Data
+  set]. DANDI Archive. https://doi.org/10.48324/dandi.000563/0.250311.0022
 contributor:
 - awardNumber: 1 U24 NS 113646-03
   name: National Institutes of Health (NIH)
@@ -217,13 +217,14 @@ description: "Some visual neurons have been shown to respond to white noise flic
   species. We speculated that these barcodes could be used as identifiers of discrete
   cell types. The Temporal Barcode Dataset provides \"barcodes\" for visually responsive
   neurons throughout the mouse brain, enabling a test of this hypothesis."
+doi: 10.48324/dandi.000563/0.250311.0022
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: ​Allen Institute Institutional Animal Care and Use Committee (IACUC),
     protocol 2117
   schemaKey: EthicsApproval
-id: DANDI:000563/draft
+id: DANDI:000563/0.250311.0022
 identifier: DANDI:000563
 keywords:
 - mouse
@@ -238,7 +239,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000563/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000563/0.250311.0022/assets.yaml
 name: Allen Institute Openscope - Barcoding
 protocol: []
 publishedBy:
@@ -258,6 +259,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000563/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000563/0.250311.0022
+version: 0.250311.0022
 wasGeneratedBy: []
