@@ -6,7 +6,7 @@
 about: []
 access:
 - schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 acknowledgement: We thank the Allen Institute founder, Paul G. Allen, for his vision,
   encouragement, and support.
 assetsSummary:
@@ -28,9 +28,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 203123591694
-  numberOfFiles: 95
-  numberOfSubjects: 14
+  numberOfBytes: 416641319094
+  numberOfFiles: 210
+  numberOfSubjects: 36
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -42,7 +42,11 @@ assetsSummary:
   - ProcessingModule
   - OptogeneticSeries
   - Units
-citation: Allen Institute Openscope - Barcoding (2025). (Version draft) [Data set].
+citation: Reinagel, Pamela; Lecoq, Jérôme; Durand, Séverine; Gillis, Ryan; Carlson,
+  Mikayla; Peene, Carter; Bawany, Ahad; Johnson, Tye; Amaya, Avalon; Han, Warren;
+  Wilkes, Josh; Nguyen, Katrina; Suarez, Lucas; Naidoo, Robyn; Ouellette, Ben; Grasso,
+  Conor ; Loeffler, Henry; Belski, Hannah; Williford, Ali; Swapp, Jackie; Howard,
+  Robert (2025) Allen Institute Openscope - Barcoding (Version draft) [Data set].
   DANDI Archive. https://dandiarchive.org/dandiset/000563/draft
 contributor:
 - awardNumber: 1 U24 NS 113646-03
@@ -50,7 +54,149 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- email: preinagel@ucsd.edu
+  identifier: 0000-0002-6338-2611
+  includeInCitation: true
+  name: Reinagel, Pamela
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  - dcite:ContactPerson
+  - dcite:FormalAnalysis
+  - dcite:Investigation
+  - dcite:ProjectLeader
+  schemaKey: Person
+  url: http://www.ratrix.org
+- email: jeromel@alleninstitute.org
+  identifier: 0000-0002-0131-0938
+  includeInCitation: true
+  name: Lecoq, Jérôme
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  - dcite:DataManager
+  - dcite:ProjectLeader
+  - dcite:ProjectManager
+  - dcite:Software
+  - dcite:Supervision
+  schemaKey: Person
+- identifier: 0000-0001-7788-0200
+  includeInCitation: true
+  name: Durand, Séverine
+  roleName:
+  - dcite:Supervision
+  - dcite:DataCurator
+  schemaKey: Person
+- identifier: 0009-0000-1879-6519
+  includeInCitation: true
+  name: Gillis, Ryan
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0003-7019-2781
+  includeInCitation: true
+  name: Carlson, Mikayla
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0000-6660-2264
+  includeInCitation: true
+  name: Peene, Carter
+  roleName:
+  - dcite:DataCurator
+  - dcite:DataManager
+  schemaKey: Person
+- includeInCitation: true
+  name: Bawany, Ahad
+  roleName:
+  - dcite:DataManager
+  schemaKey: Person
+- identifier: 0009-0006-7239-7571
+  includeInCitation: true
+  name: Johnson, Tye
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0000-0003-2274-2892
+  includeInCitation: true
+  name: Amaya, Avalon
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0006-0104-0380
+  includeInCitation: true
+  name: Han, Warren
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0005-4858-2219
+  includeInCitation: true
+  name: Wilkes, Josh
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0009-8547-9703
+  includeInCitation: true
+  name: Nguyen, Katrina
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0002-0121-3334
+  includeInCitation: true
+  name: Suarez, Lucas
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0004-0996-8808
+  includeInCitation: true
+  name: Naidoo, Robyn
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0000-0003-4913-554X
+  includeInCitation: true
+  name: Ouellette, Ben
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0003-6384-4075
+  includeInCitation: true
+  name: 'Grasso, Conor '
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0007-3935-6863
+  includeInCitation: true
+  name: Loeffler, Henry
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0001-5422-5964
+  includeInCitation: true
+  name: Belski, Hannah
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- identifier: 0009-0000-7282-7515
+  includeInCitation: true
+  name: Williford, Ali
+  roleName:
+  - dcite:ProjectManager
+  schemaKey: Person
+- identifier: 0009-0008-4965-6242
+  includeInCitation: true
+  name: Swapp, Jackie
+  roleName:
+  - dcite:ProjectManager
+  schemaKey: Person
+- identifier: 0009-0008-5499-549X
+  includeInCitation: true
+  name: Howard, Robert
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
 dateCreated: '2023-06-15T18:31:33.746898+00:00'
+datePublished: '2025-03-11T00:22:38.329075+00:00'
 description: "Some visual neurons have been shown to respond to white noise flicker
   visual stimuli with high temporal precision, particularly retinal ganglion cells
   and LGN relay cells. Responses to white noise stimulation are useful for a variety
@@ -95,6 +241,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000563/versions/draft/assets/
 name: Allen Institute Openscope - Barcoding
 protocol: []
+publishedBy:
+  endDate: '2025-03-11T00:22:38.329075+00:00'
+  id: urn:uuid:ba4b5b43-5e14-457a-8eef-92250f51a53d
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-03-11T00:22:38.329075+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:36b79a90-cb3e-49ac-b327-5e95243ac2fa
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
